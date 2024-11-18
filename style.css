@@ -1,0 +1,173 @@
+.body {
+  background-color: #070831;
+  font-family: brandon-grotesque, sans-serif;
+}
+
+.letter-h-logo {
+  height: 60px;
+  padding-right: 10px;
+}
+
+.top {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  max-width: 1600px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  display: flex;
+  width: 45%;
+  margin-left: 10%;
+  align-items: flex-start;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.intro-text-block {
+  max-width: 600px;
+}
+
+.intro-text {
+  color: #908a76;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.emphasis-text {
+  color: #fff4d6;
+  font-weight: 400;
+}
+
+section {
+  margin: 500px 100px;
+  padding: 20px;
+  color: #908a76;
+  border-radius: 8px;
+  border-color: #908a76;
+  display: flex;
+  align-items: center;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 25px;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision-content {
+  line-height: 25px;
+}
+
+.inspiration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inspiration-content {
+  line-height: 25px;
+}
+
+.profile-photo {
+  width: 150px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.sine-wave {
+  margin-top: 10px;
+}
+
+ul li {
+  line-height: 30px;
+}
+
+h2 {
+  color: #fff4d6;
+}
+
+.footer {
+  display: flex;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 160px;
+  padding-bottom: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-icons {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.social-media-url {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+  color: #fff4d6;
+}
+
+.home-url {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.footer-line-block {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
